@@ -17,12 +17,16 @@
 footer {
     background-color:  #d5dbdb;
     text-align: center;
+    padding: 10px;
 }
 .card {
     border: none;
 }
 .pasador {
     display: none;
+}
+.card-img-top:hover {
+    transform:scale(1.5);transform:scale(1.5);
 }
 .card-img-top {
     width: 190px;
@@ -61,6 +65,17 @@ footer {
 .pagination {
     margin-left: 90px;
 }
+.titulo {
+    color: black;
+    text-decoration: none;
+}
+.titulo:hover{
+    color: black;
+}
+.navbar {
+    background-image: url(./imagenes/iconos/fondobrillo1.png);
+    filter: opacity(0.7);
+}
 }
 @media only screen and (min-width: 929px) {
     * {
@@ -76,13 +91,12 @@ h1 {
 }
 .navbar-nav {
     border-color: #d5dbdb ;
-    margin-left: 100px;
-
+    margin-left: 210px;
 }
 .funciona {
     font-family: 'Cormorant SC', serif;
-    font-size: 16px;
-    padding-top: 0%;
+    font-size: 20px;
+    color: black;
 }
 .parrafo {
     text-align: center;
@@ -111,6 +125,9 @@ footer {
     margin-bottom: 20px;
     width: 250px;
 }
+.card-img-top:hover {
+    transform:scale(1.5);transform:scale(1.5);
+}
 .card-img-top {
     width: 225px;
     margin-left: 130px;
@@ -137,5 +154,16 @@ footer {
 }
 .pagination {
     margin-left: 587px;
+}
+.titulo {
+    color: black;
+    text-decoration: none;
+}
+.titulo:hover{
+    color: black;
+}
+.navbar {
+    background-image: url(./imagenes/iconos/fondobrillo1.png);
+    filter: opacity(0.7);
 }
 }
