@@ -98,7 +98,7 @@ footer {
 .container-fluid {
     margin-left: 0px;
     padding: 0px;
-    background-color: #d4ac0d;
+    background-image: url(./imagenes/iconos/dorado2.jpg);
 }
 }
 
@@ -122,7 +122,7 @@ h1 {
     text-decoration: none;
 }
 #navbarSupportedContent {
-    background-color: #d4ac0d;
+    background-image: url(./imagenes/iconos/dorado2.jpg);
 }
 .navbar-nav {
     border-color: #d5dbdb ;
@@ -151,6 +151,9 @@ h1 {
 .nav-item {
     font-family: 'Cormorant SC', serif;
     margin-right: 250px;
+}
+.nav-link {
+    text-align: center;
 }
 footer {
     background-color:   white;
@@ -198,7 +201,7 @@ footer {
     color: #d4ac0d;
 }
 .logos {
-    margin-left: 600px;
+    margin-left: 610px;
     margin-bottom: 50px;
 }
 .card-text {
