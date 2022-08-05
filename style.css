@@ -126,7 +126,7 @@ footer {
 
 
 
-@media only screen and (min-width: 412px) and (max-width: 928px) {
+@media only screen and (min-width: 412px) and (max-width: 575px) {
     * {
         margin: 0px;
         padding: 0px;
@@ -155,37 +155,38 @@ h1 {
 
 
 
-@media only screen and (min-width: 500px) and (max-width: 928px) {
+@media only screen and (min-width: 576px) and (max-width: 650px) {
     * {
         margin: 0px;
         padding: 0px;
     }
-    .card-group {
-        margin-left: 90px;
-    }
+    
     h1 {
-        margin-left: 145px;
-    }
-    .navbar-toggler {
-        margin-left: 245px;
-    }
-    #carouselExampleIndicators {
         margin-left: 150px;
     }
+    .navbar-toggler {
+        margin-left: 260px;
+    }
+    #carouselExampleIndicators {
+        margin-left: 160px;
+    }
     .logos {
-        margin-left: 220px;
+        margin-left: 230px;
     }
     .index {
         margin-left: 140px;
     }
     .card-body {
-        margin-right: 100px;
+        margin-right: 20px;
     }
     .pagination {
-        margin-left: 180px;
+        margin-left: 200px;
     }
     .col-md-8 {
-        margin-left: 50px;
+        margin-left: 70px;
+    }
+    .img-fluid {
+        margin-left: 25px;
     }
     .nav-foot li {
         list-style: none;
@@ -195,10 +196,11 @@ h1 {
         color: black;
         font-family: 'Playfair Display', serif;
     }
+    
 }
 
 
-@media only screen and (min-width: 800px) and (max-width: 928px){
+@media only screen and (min-width: 651px) and (max-width: 928px){
     * {
         margin: 0px;
         padding: 0px;
