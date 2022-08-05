@@ -24,6 +24,10 @@ footer {
     text-align: center;
     padding: 10px;
 }
+.card-text-parrafo {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+}
 .card-group {
     margin-top: 30px;
 }
@@ -106,139 +110,132 @@ footer {
     padding: 0px;
     background-image: url(./imagenes/iconos/dorado2.jpg);
 }
-.nav-foot {
-    display: none;
-}
 .parrafoprado {
     font-size: 13px;
     margin-top: 10px;
 }
+.nav-foot li {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-foot li a{
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
 }
 
 
 
+@media only screen and (min-width: 412px) and (max-width: 928px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+}
+h1 {
+    margin-left: 80px;
+}
+.card-group {
+    margin-left: 30px;
+}
+.navbar-toggler {
+    margin-left: 180px;
+}
+.pagination {
+    margin-left: 130px;
+}
+.nav-foot li {
+    list-style: none;
+    margin-right: 30px;
+}
+.nav-foot li a{
+    color: black;
+    font-family: 'Playfair Display', serif;
+}
+}
 
 
 
-@media only screen and (min-width: 414px) and (max-width: 928px) {
+@media only screen and (min-width: 500px) and (max-width: 928px) {
+    * {
+        margin: 0px;
+        padding: 0px;
+    }
+    .card-group {
+        margin-left: 90px;
+    }
+    h1 {
+        margin-left: 145px;
+    }
+    .navbar-toggler {
+        margin-left: 245px;
+    }
+    #carouselExampleIndicators {
+        margin-left: 150px;
+    }
+    .logos {
+        margin-left: 220px;
+    }
+    .index {
+        margin-left: 140px;
+    }
+    .card-body {
+        margin-right: 100px;
+    }
+    .pagination {
+        margin-left: 180px;
+    }
+    .col-md-8 {
+        margin-left: 50px;
+    }
+    .nav-foot li {
+        list-style: none;
+        margin-right: 30px;
+    }
+    .nav-foot li a{
+        color: black;
+        font-family: 'Playfair Display', serif;
+    }
+}
+
+
+@media only screen and (min-width: 800px) and (max-width: 928px){
     * {
         margin: 0px;
         padding: 0px;
     }
     h1 {
-        margin-left: 80px;
-        font-family: 'Parisienne', cursive;
-        font-size: 40px;
-        margin-top: 15px;
-
-}
-.titulo {
-    color: #d4ac0d;
-    text-decoration: none;
-}
-.funciona {
-    font-family: 'Cormorant SC', serif;
-    font-size: 18px;
-    margin-top: 6px;
-}
-footer {
-    background-color:  white;
-    text-align: center;
-    padding: 10px;
-}
-.card-group {
-    margin-top: 30px;
-    margin-left: 25px;
-}
-.card {
-    border: none;
-}
-.pasador {
-    display: none;
-}
-.card-img-top:hover {
-    transform:scale(1.5);transform:scale(1.5);
-}
-.card-img-top {
-    width: 190px;
-    margin-left: 90px;
-    margin-top: 3px;
-}
-.card-body {
-    text-align: center;
-}
-.container-fluid {
-    margin-left: 140px;
-}
-.parrafo {
-    text-align: center;
-    margin: 50px;
-    font-size: 15px;
-    letter-spacing: 0,5px;
-}
-.nav-item {
-    text-align: center;
-    font-family: 'Cormorant SC', serif;
-    font-size: 18px;
-   
-}
-#carouselExampleIndicators {
-    width: 250px;
-    margin: 55px;
-    margin-left: 80px;
-}
-.index {
-    color:  #d4ac0d ;
-    width: 50%;
-    margin-left: 110px;
-    margin-bottom: 50px;
-}
-.navbar-toggler {
-    margin-left: 180px;
-    border: none;
-}
-.titulo:hover{
-    color: #d4ac0d;
-}
-.h1vestido {
-    margin-left: 200px;
-    width: 70px;
-}
-.logos {
-    margin-left: 150px;
-    margin-bottom: 50px;
-    margin-top: 50px;
-}
-.col-md-4 {
-    margin-left: 45%;
-    width: 45px;
-}
-.card-funciona {
-    margin-top: 30px;
-}
-#navbarSupportedContent {
-    background-color: white;
-}
-.container-fluid {
-    margin-left: 0px;
-    padding: 0px;
-    background-image: url(./imagenes/iconos/dorado2.jpg);
-}
-.nav-foot {
-    display: none;
-}
-.parrafoprado {
-    font-size: 13px;
-    margin-top: 10px;
-}
-.nav-pagination {
-    margin-left: 40px;
-}
+        margin-left: 290px;
+    }
+    .navbar-toggler {
+        margin-left: 370px;
+    }
+    #carouselExampleIndicators {
+        margin-left: 270px;
+    }
+    .index {
+        margin-left: 200px;
+    }
+    .logos {
+        margin-left: 340px;
+    }
+    .pagination {
+        margin-left: 320px;
+    }
+    .img-fluid {
+        margin-left: 130px;
+    }
+    .col-md-8 {
+        margin-left: 260px;
+    }
+    .card-img-top {
+        margin: 0px;
+    }
 }
 
 
 
 
+/* ESCRITORIO */
 
 
 @media only screen and (min-width: 929px) {
@@ -276,10 +273,7 @@ h1 {
 }
 .nav-item {
     font-family: 'Cormorant SC', serif;
-    margin-right: 200px;
-}
-.nav-link {
-    margin-left: 20px;
+    margin-right: 180px;
 }
 footer {
     text-align: center;
@@ -339,7 +333,7 @@ footer {
     font-family: 'Playfair Display', serif;
     text-align: center;
     font-size: 18px;
-    margin-top: 20px;
+    margin-top: 2px;
 }
 .parrafopago {
     margin-left: 220px;
@@ -367,11 +361,13 @@ footer {
     margin-top: 5px;
     margin-bottom: 5px;
 }
-#navbarSupportedContent {
+.navbar {
     background-image: url(./imagenes/iconos/dorado2.jpg);
 }
 .nav-foot li a{
     color: black;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
 }
 .nav-foot li {
     list-style: none;
@@ -384,6 +380,5 @@ footer {
 }
 .redes {
     margin-left: 310px;
-    margin-top: 20px;
 }
 }
